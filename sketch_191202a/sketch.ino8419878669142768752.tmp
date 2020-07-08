@@ -1,0 +1,36 @@
+
+int a; 
+a = 0;
+void setup() {
+Serial.begin(9600); 
+} 
+while((a < 10))
+{
+
+Serial.print(a); 
+a = (a  1);
+
+delay(1000); 
+}
+a = 0;
+
+Serial.print("Value 10 reached"); 
+
+int a; 
+a = 0;
+void setup() {
+Serial.begin(9600); 
+}
+void loop(){
+while((a < 10))
+{
+
+Serial.print(a); 
+a = (a + 1);
+
+delay(1000); 
+}
+a = 0;
+
+Serial.print("Value 10 reached");
+} 
